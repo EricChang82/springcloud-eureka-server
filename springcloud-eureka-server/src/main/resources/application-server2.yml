@@ -3,7 +3,7 @@ server:
  
 spring:
   application:
-    name: eureka-server
+    name: eureka-server  #集群部署下，这里必须相同
  
 eureka:
   instance:
